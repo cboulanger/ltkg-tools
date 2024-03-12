@@ -1,4 +1,4 @@
-# Legal Theory Knowledge Graph Project - tools and resources
+# Legal Theory Knowledge Graph Project - Tools and Resources
 
 Christian Boulanger
 
