@@ -1,4 +1,4 @@
-# Legal Theory Knowledge Graph Project - Tools and Resources
+# Legal Theory Knowledge Graph Project - List of Tools and Resources
 [![DOI](https://zenodo.org/badge/770897493.svg)](https://zenodo.org/doi/10.5281/zenodo.10809341)
 
 Christian Boulanger
