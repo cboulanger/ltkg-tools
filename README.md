@@ -4,7 +4,7 @@ Christian Boulanger
 
 Last updated: 2024/03/12
 
-The following links point to resources collected in the exploratory phase of the [Legal Theory Graph Project at the Max Planck Institute for Legal History and Legal Theory](https://www.lhlt.mpg.de/2514927/03-boulanger-legal-theory-graph). This is _not_ a comprehensive list of available resources or scholarship, but a selection based on the needs of the project and personal preferences. The main research for this list was done between 2021-2023, and preceeds the publication of the release of ChatGPT and other large language models that have revolutionized the NLP technology landscape. While certain aspects of these newer developments have been integrated, the list mostly reflects the pre-LLM state of the art.
+The following links point to resources collected during the exploratory phase of the [Legal Theory Graph Project at the Max Planck Institute for Legal History and Legal Theory](https://www.lhlt.mpg.de/2514927/03-boulanger-legal-theory-graph). This is _not_ a comprehensive list of available resources or scholarship, but a selection based on the needs of the project and personal preferences. Most of the research for this list was done in 2021-2023, prior to the release of ChatGPT and other major language models that have revolutionized the NLP technology landscape. While some aspects of these newer developments have been incorporated, the list mostly reflects the pre-LLM state of the art.
 
 The list differentiates between
 1. **Graph Technologies** in general, wich refer to standards and tools for collecting, editing, and presenting (visualizing) graph data;
