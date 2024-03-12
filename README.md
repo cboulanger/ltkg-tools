@@ -15,11 +15,45 @@ The list differentiates between
 
 ## Table of Contents
 
-[TOC]
+- [1\. Graph Technologies](#1-Graph-Technologies "1. Graph Technologies")
+  - [Scholarship](#Scholarship "Scholarship")
+  - [Projects/Services with similar/related goals](#ProjectsServices-with-similarrelated-goals "Projects/Services with similar/related goals")
+  - [Projects/Services using Graph Technologies/Linked Data](#ProjectsServices-using-Graph-TechnologiesLinked-Data "Projects/Services using Graph Technologies/Linked Data")
+  - [Public knowledge graph / linked data repositories, data sources & services](#Public-knowledge-graph--linked-data-repositories-data-sources-amp-services "Public knowledge graph / linked data repositories, data sources & services")
+  - [Tools/Software](#ToolsSoftware "Tools/Software")
+  - [Stores for non graph-specific metadata](#Stores-for-non-graph-specific-metadata "Stores for non graph-specific metadata")
+- [2\. Knowledge Organizing Systems (KOS) / Semantic Web](#2-Knowledge-Organizing-Systems-KOS--Semantic-Web "2. Knowledge Organizing Systems (KOS) / Semantic Web")
+  - [Theory](#Theory "Theory")
+  - [Organizations](#Organizations "Organizations")
+  - [Implementation languages](#Implementation-languages "Implementation languages")
+  - [Standardization hubs/initiatives/tools](#Standardization-hubsinitiativestools "Standardization hubs/initiatives/tools")
+  - [Specialized Ontologies / Vocabularies / Taxonomies for producing semantic metadata](#Specialized-Ontologies--Vocabularies--Taxonomies-for-producing-semantic-metadata "Specialized Ontologies / Vocabularies / Taxonomies for producing semantic metadata")
+  - [Software tools](#Software-tools "Software tools")
+- [3\. Metadata retrieval and generation](#3-Metadata-retrieval-and-generation "3. Metadata retrieval and generation")
+  - [Metadata providers (with Web API)](#Metadata-providers-with-Web-API "Metadata providers (with Web API)")
+  - [Metadata extraction](#Metadata-extraction "Metadata extraction")
+- [4\. Corpus Linguistics](#4-Corpus-Linguistics "4. Corpus Linguistics")
+  - [General issues](#General-issues "General issues")
+  - [Creation & Analysis of Text Corpora](#Creation-amp-Analysis-of-Text-Corpora "Creation & Analysis of Text Corpora")
+  - [Text mining](#Text-mining "Text mining")
+  - [NLP tasks/problems](#NLP-tasksproblems "NLP tasks/problems")
+  - [Text annotation for machine learning](#Text-annotation-for-machine-learning "Text annotation for machine learning")
+  - [Possibly relevant corpora](#Possibly-relevant-corpora "Possibly relevant corpora")
+- [5\. Bibliometrics / Citation Analysis](#5-Bibliometrics--Citation-Analysis "5. Bibliometrics / Citation Analysis")
+  - [Initiatives](#Initiatives "Initiatives")
+  - [Research graphs web services](#Research-graphs-web-services "Research graphs web services")
+  - [Scholarship](#Scholarship1 "Scholarship")
+  - [Automatic article corpus aggregation](#Automatic-article-corpus-aggregation "Automatic article corpus aggregation")
+  - [Metadata extraction/annotation software and services](#Metadata-extractionannotation-software-and-services "Metadata extraction/annotation software and services")
+  - [Data exchange formats](#Data-exchange-formats "Data exchange formats")
+  - [Matching/normalization of citations](#Matchingnormalization-of-citations "Matching/normalization of citations")
+  - [Applications for data analysis](#Applications-for-data-analysis "Applications for data analysis")
+  - [Multi-purpose libraries](#Multi-purpose-libraries "Multi-purpose libraries")
+
 
 See also:
 
-- [Frey-Endres/Simon, 2021, Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften](https://tuprints.ulb.tu-darmstadt.de/17850/1/Digital_Philology__Working_Papers_in_Digital_Philology_vol002.pdf)  - comprehensive German language description of available tools, much more detailed and more general purpose
+- [Frey-Endres/Simon, 2021, Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften](https://tuprints.ulb.tu-darmstadt.de/17850/1/Digital_Philology__Working_Papers_in_Digital_Philology_vol002.pdf)- comprehensive German language description of available tools, much more detailed and more general purpose
 - [Bibliography on Digital Research in Law](https://www.zotero.org/groups/4370759/computational_sociolegal_and_historical_legal_studies): A Zotero group, still under development
 - Discover research tools for studying texts https://tapor.ca/home
 - Awesome DHTools
@@ -30,9 +64,9 @@ See also:
 ### Scholarship
 
 - **Bibliographies**
-    - https://graphentechnologien.hypotheses.org/bibliographie
-    - https://www.zotero.org/groups/2224334/ag_graph/library
-    - http://historicalnetworkresearch.org/bibliography/#top
+  - https://graphentechnologien.hypotheses.org/bibliographie
+  - https://www.zotero.org/groups/2224334/ag_graph/library
+  - http://historicalnetworkresearch.org/bibliography/#top
 
 - **Graphentechnologien in den Digitalen Geisteswissenschaften**
   http://doi.org/10.1515/abitech-2017-0042
@@ -113,10 +147,10 @@ For tools for scientometric/bibliometric graph data, see [section on general bib
 
 - **Neo4j Desktop** for graph data & queries (Commercial with community edition)
   <https://www.neo4j.com>
-    - Connection to R/RStudio <https://github.com/neo4j-rstats/neo4r>
-    - Visualization libraries:
-        - https://neo4j.com/developer/tools-graph-visualization/
-        - https://github.com/neo4j-contrib/neovis.js/
+  - Connection to R/RStudio <https://github.com/neo4j-rstats/neo4r>
+  - Visualization libraries:
+      - https://neo4j.com/developer/tools-graph-visualization/
+      - https://github.com/neo4j-contrib/neovis.js/
 
 - **Open Native Graph Database**: An Open Source fork of Neo4J
   <https://www.graphfoundation.org/>
@@ -155,7 +189,7 @@ For tools for scientometric/bibliometric graph data, see [section on general bib
 
 - **GrapViz**: graph visualization software based on a graph representation language (DOT).
   <https://graphviz.org/>
-    - https://www.tonyballantyne.com/graphs.html
+  - https://www.tonyballantyne.com/graphs.html
 
 - **GUESS**: exploratory data analysis and visualization tool for graphs and networks.
   http://graphexploration.cond.org
@@ -200,7 +234,7 @@ For tools for scientometric/bibliometric graph data, see [section on general bib
 - **pyvis**
   https://pyvis.readthedocs.io
 
-    - https://www.askpython.com/python/examples/customizing-pyvis-interactive-network-graphs
+  - https://www.askpython.com/python/examples/customizing-pyvis-interactive-network-graphs
 
 - **ipycytoscape**
   https://blog.jupyter.org/interactive-graph-visualization-in-jupyter-with-ipycytoscape-a8828a54ab63
@@ -212,7 +246,7 @@ For tools for scientometric/bibliometric graph data, see [section on general bib
 
 - **vis.js community edition**: A dynamic, browser based visualization library.
   https://visjs.org/
-    - https://visjs.github.io/vis-network/examples/
+  - https://visjs.github.io/vis-network/examples/
 
 - **Dracula.js** is a set of tools to display and layout interactive connected graphs and networks, along with various related algorithms from the field of graph theory.
   https://www.graphdracula.net/
@@ -234,8 +268,8 @@ For tools for scientometric/bibliometric graph data, see [section on general bib
 - https://r-graph-gallery.com/network.html
 - https://r-graph-gallery.com/network-interactive.html
 - https://www.r-bloggers.com/2019/06/interactive-network-visualization-with-r/
-    - https://r-graph-gallery.com/257-input-formats-for-network-charts.html
-    - https://www.statworx.com/en/content-hub/blog/interactive-network-visualization-with-r/
+  - https://r-graph-gallery.com/257-input-formats-for-network-charts.html
+  - https://www.statworx.com/en/content-hub/blog/interactive-network-visualization-with-r/
 - https://github.com/michalgm/ndtv-d3/blob/master/README.md
 
 
@@ -250,11 +284,11 @@ The following list is specific to this project, not an exhaustive overview.
 
 - **Zotero**: app for managing bibliographic data, nice UI + Web API, slow, poor query features
   https://www.zotero.org
-    - Web API/Clients
+  - Web API/Clients
       https://www.zotero.org/support/dev/web_api/v3/start
-    - ZotPrime: a fully packaged on-premise solution:
+  - ZotPrime: a fully packaged on-premise solution:
       <https://github.com/ZotPrime/zotprime>
-    - Cita: a Wikidata addon for Zotero with citations metadata support
+  - Cita: a Wikidata addon for Zotero with citations metadata support
       <https://github.com/diegodlh/zotero-cita>
 
 - **Endatabas**: Open Source SQL Document Database with Full History, allowing to record data change over time. Still in beta
@@ -262,7 +296,7 @@ The following list is specific to this project, not an exhaustive overview.
 
 - **Couchbase**: JSON document database: excellent query support, many clients
   https://docs.couchbase.com/tutorials/getting-started-ce/install-manage/tutorial_en.html
-    - Couchbase Store for @retorquere/zotero-sync
+  - Couchbase Store for @retorquere/zotero-sync
       https://github.com/cboulanger/zotero-sync-couchbase
 
 
@@ -315,7 +349,7 @@ The following list is specific to this project, not an exhaustive overview.
 
 - **PARTHENOS Virtual Research Environment**: integrates cloud storage with services and tools for Digital Humanities
   <https://parthenos.d4science.org/web/parthenos_vre>
-    - [Training Suite](https://training.parthenos-project.eu): provides training modules and resources in DH
+  - [Training Suite](https://training.parthenos-project.eu): provides training modules and resources in DH
 
 - **Linked Pipes**: Registry of web-based linked data services based on WikiData
   <http://linkedpipes.xyz/>
@@ -435,32 +469,32 @@ The following list is specific to this project, not an exhaustive overview.
 - **Wikidata**: a free, collaborative, multilingual, secondary database, collecting structured data to provide support for Wikipedia, Wikimedia Commons, the other wikis of the Wikimedia movement, and to anyone in the world.
   <https://www.wikidata.org>
 
-    - [Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction)
-    - **Projects/Initiatives**:
-        - [WikiProject Source Metadata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Source_MetaData)
-        - [WikiCite intiative](https://meta.wikimedia.org/wiki/WikiCite)
-          - [Roadmap (& scaling prolems)](https://www.wikidata.org/wiki/Wikidata:WikiCite/Roadmap)
-        - [LD4 Wikidata Affinity Group](https://www.wikidata.org/wiki/Wikidata:WikiProject_LD4_Wikidata_Affinity_Group)
+  - [Introduction](https://www.wikidata.org/wiki/Wikidata:Introduction)
+  - **Projects/Initiatives**:
+      - [WikiProject Source Metadata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Source_MetaData)
+      - [WikiCite intiative](https://meta.wikimedia.org/wiki/WikiCite)
+        - [Roadmap (& scaling prolems)](https://www.wikidata.org/wiki/Wikidata:WikiCite/Roadmap)
+      - [LD4 Wikidata Affinity Group](https://www.wikidata.org/wiki/Wikidata:WikiProject_LD4_Wikidata_Affinity_Group)
 
 - **API clients/Tools**:
   Programmatic WikiData edits should be made with a bot account, see https://www.wikidata.org/wiki/Wikidata:Bots
-    - CLI:
-        - https://github.com/maxlath/wikibase-cli
-    - Python:
-        - https://github.com/LeMyst/WikibaseIntegrator
-        - https://github.com/SuLab/WikidataIntegrator
-        - https://github.com/andrewtavis/wikirepo
-    - JavaScript/NodeJS
-        - https://github.com/maxlath/wikibase-sdk
-        - https://github.com/maxlath/wikibase-edit
-    - R:
-        - https://github.com/TS404/WikidataR
-    - Ruby:
-        - https://github.com/wilg/wikidata
+  - CLI:
+      - https://github.com/maxlath/wikibase-cli
+  - Python:
+      - https://github.com/LeMyst/WikibaseIntegrator
+      - https://github.com/SuLab/WikidataIntegrator
+      - https://github.com/andrewtavis/wikirepo
+  - JavaScript/NodeJS
+      - https://github.com/maxlath/wikibase-sdk
+      - https://github.com/maxlath/wikibase-edit
+  - R:
+      - https://github.com/TS404/WikidataR
+  - Ruby:
+      - https://github.com/wilg/wikidata
 
 - **Data model**:
-    - [Bibliographic Properties](https://www.wikidata.org/wiki/Template:Bibliographic_properties)
-    - [Property "cites work"](https://www.wikidata.org/wiki/Property_talk:P2860)
+  - [Bibliographic Properties](https://www.wikidata.org/wiki/Template:Bibliographic_properties)
+  - [Property "cites work"](https://www.wikidata.org/wiki/Property_talk:P2860)
 
 - **OpenAlex**: An open and comprehensive catalog of scholarly papers, authors, institutions, and more
   https://docs.openalex.org/api
@@ -472,8 +506,8 @@ The following list is specific to this project, not an exhaustive overview.
   https://semopenalex.org
 
 - **The General Index**:
-    - https://archive.org/details/GeneralIndex
-    - https://www.nature.com/articles/d41586-019-02142-1
+  - https://archive.org/details/GeneralIndex
+  - https://www.nature.com/articles/d41586-019-02142-1
 
 #### Articles / Citations / Bibliometric data
 
@@ -481,45 +515,45 @@ The following list is specific to this project, not an exhaustive overview.
   https://docs.openalex.org/api
 
 - **Semantic Scholar**: A free, AI-powered research tool for scientific literature
-    - API: https://www.semanticscholar.org/product/api#Documentation
-    - Snapshot: https://api.semanticscholar.org/corpus
+  - API: https://www.semanticscholar.org/product/api#Documentation
+  - Snapshot: https://api.semanticscholar.org/corpus
 
 - **Open Academic Graph**: large knowledge graph unifying two billion-scale academic graphs: Microsoft Academic Graph (MAG) and AMiner (large snapshot, no API)
   https://www.aminer.cn/oag
 
 - **OpenCitations**
   <https://opencitations.net>
-    - [API](https://opencitations.net/index/api/v1)
-    - [Article (2020)](https://doi.org/10.1162/qss_a_00023)
-    - Initiative for Open Citations
+  - [API](https://opencitations.net/index/api/v1)
+  - [Article (2020)](https://doi.org/10.1162/qss_a_00023)
+  - Initiative for Open Citations
       <https://i4oc.org/>
-    - CROCI, the Croudsourced Open Citations Index (for items with DOI)
+  - CROCI, the Croudsourced Open Citations Index (for items with DOI)
       https://opencitations.net/index/croci
 
 - **CrossRef**
   https://www.crossref.org
-    - [API](https://www.crossref.org/education/retrieve-metadata/rest-api/)
-    - [NodeJS API Client](https://www.npmjs.com/package/crossref)
-    - [SimpleTextQuery](https://doi.crossref.org/simpleTextQuery)
+  - [API](https://www.crossref.org/education/retrieve-metadata/rest-api/)
+  - [NodeJS API Client](https://www.npmjs.com/package/crossref)
+  - [SimpleTextQuery](https://doi.crossref.org/simpleTextQuery)
 
 - **Unpaywall**: An open database of free scholarly articles
-    - API: https://unpaywall.org/products/api
-    - Python client: https://pypi.org/project/unpywall/
+  - API: https://unpaywall.org/products/api
+  - Python client: https://pypi.org/project/unpywall/
 
 - **Internet Archive Scholar**
   <https://scholar.archive.org/>
 
-    - **Fatcat**: a scalable, versioned, API-oriented catalog of bibliographic entities and file metadata.
+  - **Fatcat**: a scalable, versioned, API-oriented catalog of bibliographic entities and file metadata.
       <https://api.fatcat.wiki/redoc>
 
-    - **Refcat**, the Internet Archive Scholar Scholar Index
-        - Info: <http://blog.archive.org/2021/10/19/internet-archive-releases-refcat-the-ia-scholar-index-of-over-1-3-billion-scholarly-citations/>
+  - **Refcat**, the Internet Archive Scholar Scholar Index
+      - Info: <http://blog.archive.org/2021/10/19/internet-archive-releases-refcat-the-ia-scholar-index-of-over-1-3-billion-scholarly-citations/>
 
 
 - **Web of Science** (commercial, requires license)
-    - https://pypi.org/project/wos/
-    - https://developer.clarivate.com/apis/wos
-    - https://github.com/rafguns/wosfile
+  - https://pypi.org/project/wos/
+  - https://developer.clarivate.com/apis/wos
+  - https://github.com/rafguns/wosfile
 
 - **Scopus**: Like Web of Science, but from Elsevier
   https://www.scopus.com
@@ -527,37 +561,37 @@ The following list is specific to this project, not an exhaustive overview.
 
 
 - **Google Scholar** (no API, but with scraping libraries, which often break. Google actively prevents scraping)
-    - https://pypi.org/project/scholarly/
+  - https://pypi.org/project/scholarly/
 
 #### Books
 
 - **OpenLibrary**
-    - https://openlibrary.org/dev/docs/api/books
-    - https://github.com/jayfajardo/openlibrary
+  - https://openlibrary.org/dev/docs/api/books
+  - https://github.com/jayfajardo/openlibrary
 
 - **Google Books API**
-    - https://developers.google.com/books/docs/v1/using
-    - https://medium.com/@akramhelil/google-books-api-with-rails-or-ruby-a931cece427a
+  - https://developers.google.com/books/docs/v1/using
+  - https://medium.com/@akramhelil/google-books-api-with-rails-or-ruby-a931cece427a
 
 - **Share-VDE: linked data for libraries**
   https://wiki.share-vde.org/wiki/Main_Page
 
 - **WorldCat Search API (commercial)**
-    - <https://www.oclc.org/developer/develop/web-services/worldcat-search-api.en.html>
-    - <https://platform.worldcat.org/api-explorer/apis/wcapi>
+  - <https://www.oclc.org/developer/develop/web-services/worldcat-search-api.en.html>
+  - <https://platform.worldcat.org/api-explorer/apis/wcapi>
 
 
 ##### National Libraries
 
 - **Deutsche Nationalbibliothek (DNB)**
-    - [DNB Linked Data](https://www.dnb.de/DE/Professionell/Metadatendienste/Datenbezug/LDS/lds_node.html)
-    - [DNB SRU Interface](https://www.dnb.de/EN/Professionell/Metadatendienste/Datenbezug/SRU/sru_node.html)
-        - [EXPLAIN XML](https://services.dnb.de/sru/dnb?operation=explain&version=1.1)
-        - [Schnittstellen (PDF)](https://www.dnb.de/SharedDocs/Downloads/DE/Professionell/Metadatendienste/linkedDataZugriff.pdf?__blob=publicationFile&v=3)
+  - [DNB Linked Data](https://www.dnb.de/DE/Professionell/Metadatendienste/Datenbezug/LDS/lds_node.html)
+  - [DNB SRU Interface](https://www.dnb.de/EN/Professionell/Metadatendienste/Datenbezug/SRU/sru_node.html)
+      - [EXPLAIN XML](https://services.dnb.de/sru/dnb?operation=explain&version=1.1)
+      - [Schnittstellen (PDF)](https://www.dnb.de/SharedDocs/Downloads/DE/Professionell/Metadatendienste/linkedDataZugriff.pdf?__blob=publicationFile&v=3)
 
 - lobid.org : provides Linked Open Data (LOD) services
-    - [GND](https://lobid.org/gnd/api)
-    - [hbz](https://lobid.org/resources)
+  - [GND](https://lobid.org/gnd/api)
+  - [hbz](https://lobid.org/resources)
 
 - Library of Congress SRU
   <https://www.loc.gov/standards/sru/>
@@ -571,9 +605,9 @@ The following list is specific to this project, not an exhaustive overview.
   <https://viaf.org/>
 
   Clients
-    - R: https://rdrr.io/cran/viafr/
-    - PHP: https://packagist.org/packages/gbv/viaf-jskos
-    - NodeJS: https://github.com/phette23/viaf-npm
+  - R: https://rdrr.io/cran/viafr/
+  - PHP: https://packagist.org/packages/gbv/viaf-jskos
+  - NodeJS: https://github.com/phette23/viaf-npm
 
 - DNB Normdaten, via dariah.eu (Persons)
   [https://wiki.de.dariah.eu](https://wiki.de.dariah.eu/display/publicde/DARIAH-DE+Normdatendienste#DARIAHDENormdatendienste-GemeinsameNormdatei(GND))
@@ -590,14 +624,14 @@ The following list is specific to this project, not an exhaustive overview.
   <https://scholar.google.com>
 
 - ISNI: global standard number for contributors to creative works and those active in their distribution
-    - Online Search: <https://isni.oclc.org/>
-    - Linked Data: <https://isni.org/page/linked-data>
+  - Online Search: <https://isni.oclc.org/>
+  - Linked Data: <https://isni.org/page/linked-data>
 
 #### Venues/Journals/Sources
 
 - ZDB (Zeitschriftendatenbank)
-    - API: https://zeitschriftendatenbank.de/api
-    - via lobig.org: https://blog.lobid.org/2018/09/04/zdb.html
+  - API: https://zeitschriftendatenbank.de/api
+  - via lobig.org: https://blog.lobid.org/2018/09/04/zdb.html
 -
 - https://docs.openalex.org/api-entities/sources
 
@@ -607,8 +641,8 @@ The following list is specific to this project, not an exhaustive overview.
   <https://ror.org>
 
 - ISNI: global standard number for contributors to creative works and those active in their distribution
-    - Online Search: <https://isni.oclc.org/>
-    - Linked Data: <https://isni.org/page/linked-data>
+  - Online Search: <https://isni.oclc.org/>
+  - Linked Data: <https://isni.org/page/linked-data>
 
 
 
@@ -630,11 +664,11 @@ The following list is specific to this project, not an exhaustive overview.
 - Tesseract Open Source OCR engine
   https://github.com/tesseract-ocr/tesseract
 
-    - Tesseract to PAGE: analyse document page with Tesseract and convert to PAGE XML format
+  - Tesseract to PAGE: analyse document page with Tesseract and convert to PAGE XML format
       https://www.primaresearch.org/tools/TesseractOCRToPAGE
-    - TesseractXplore: a graphical interface to tesseract
+  - TesseractXplore: a graphical interface to tesseract
       <https://github.com/JKamlah/tesseractXplore>
-    - Clients
+  - Clients
       https://github.com/zapolnoch/node-tesseract-ocr
       https://www.npmjs.com/package/node-ts-ocr
 
@@ -801,7 +835,7 @@ The following list is specific to this project, not an exhaustive overview.
 ##### Python
 
 - **Comparison**
-    - https://medium.com/activewizards-machine-learning-company/comparison-of-top-6-python-nlp-libraries-c4ce160237eb
+  - https://medium.com/activewizards-machine-learning-company/comparison-of-top-6-python-nlp-libraries-c4ce160237eb
 
 - **TM**
   https://tmtoolkit.readthedocs.io
@@ -831,13 +865,13 @@ The following list is specific to this project, not an exhaustive overview.
 
 - **quanteda**
   https://quanteda.io/
-    - Automatisierte Inhaltsanalyse mit R (German, using quanteda)
+  - Automatisierte Inhaltsanalyse mit R (German, using quanteda)
       http://inhaltsanalyse-mit-r.de
 - **TM**
   https://cran.r-project.org/web/packages/tm/
-    - Using the TM package
+  - Using the TM package
       https://rpubs.com/tsholliger/301914
-    - A Tutorial of Text Mining in R Using TM Package
+  - A Tutorial of Text Mining in R Using TM Package
       https://medium.com/text-mining-in-data-science-a-tutorial-of-text/text-mining-in-data-science-51299e4e594
 
 - **fulltext**: integration of rOpenSci R packages to create a single interface to many bibliographic data sources
@@ -856,8 +890,8 @@ The following list is specific to this project, not an exhaustive overview.
   http://www.textannotator.texttechnologylab.org/
 
 - Annotate them All: community annotation of scientific texts to Wikidata items
-    - Info <https://sprint.elifesciences.org/annotate-them-all/>
-    - GitHub: https://github.com/lubianat/ann
+  - Info <https://sprint.elifesciences.org/annotate-them-all/>
+  - GitHub: https://github.com/lubianat/ann
 
 - inception: A semantic annotation platform offering intelligent assistance and knowledge management
   https://inception-project.github.io/
@@ -883,7 +917,7 @@ The following list is specific to this project, not an exhaustive overview.
 
 - LightTag Text Annotation Tool (commercial)
   <https://www.lighttag.io/>
-    - Free Academic Tier
+  - Free Academic Tier
       <https://www.lighttag.io/signup/academic/>
 
 ### Possibly relevant corpora
@@ -951,7 +985,7 @@ The following list is specific to this project, not an exhaustive overview.
 
 - GROBID, a machine learning library for extracting, parsing and re-structuring raw documents such as PDF into structured XML/TEI encoded documents
   <https://github.com/kermitt2/grobid>
-    - NodeJS client (there are also Python & Java clients)
+  - NodeJS client (there are also Python & Java clients)
       https://github.com/kermitt2/grobid-client-node
 
 - Anystyle (Ruby)
@@ -1055,8 +1089,8 @@ The following list is specific to this project, not an exhaustive overview.
   <https://github.com/edsu/etudier>
 
 - Deep Reference Parsing: A deep learning architecture for reference mining from literature in the arts and humanities -> parses individual references into components
-    - <https://github.com/dhlab-epfl/LinkedBooksDeepReferenceParsing>
-    - [article (2018)](https://doi.org/10.3389/frma.2018.00021)
+  - <https://github.com/dhlab-epfl/LinkedBooksDeepReferenceParsing>
+  - [article (2018)](https://doi.org/10.3389/frma.2018.00021)
 
 - BiblioPy: co-citation analysis (Python 2)
   https://github.com/Greenwicher/BiblioPy
@@ -1069,9 +1103,9 @@ The following list is specific to this project, not an exhaustive overview.
 #### R
 
 - bibliometrix: R library for comprehensive science mapping analysis (works with data extracted from the four main bibliographic databases: *SCOPUS*, *Web of Science*, *Digital Science Dimensions*, *The Lens*, *Cochrane Database of Systematic Reviews (CDSR)*, and *RISmed PubMed/MedLine*)
-    - <https://bibliometrix.org/>
-    - See papers where this has been used: <https://bibliometrix.org/Papers.html>
-    - biblioshiny: The shiny interface for bibliometrix
+  - <https://bibliometrix.org/>
+  - See papers where this has been used: <https://bibliometrix.org/Papers.html>
+  - biblioshiny: The shiny interface for bibliometrix
       https://www.bibliometrix.org/home/index.php/layout/biblioshiny
 
 - biblionetwork: creates bibliographic coupling and cocitation networks
