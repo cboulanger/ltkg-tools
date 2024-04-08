@@ -395,17 +395,17 @@ The following list is specific to this project, not an exhaustive overview.
 - **Scholarly Ontology**
   https://scholarlyontology.herokuapp.com/
 
-- FOAF ontology
+- **FOAF ontology**
   http://xmlns.com/foaf/spec/
 
-- SCoRO, the Scholarly Contributions and Roles Ontology
+- **SCoRO, the Scholarly Contributions and Roles Ontology**
   https://sparontologies.github.io/scoro/current/scoro.html
 
-- RELATIONSHIP: A vocabulary for describing relationships between people
+- **RELATIONSHIP: A vocabulary for describing relationships between people**
   https://vocab.org/relationship/
 
-- BIO: A vocabulary for biographical information
-  <https://vocab.org/bio/>
+- **BIO: A vocabulary for biographical information**
+  https://vocab.org/bio/
 
 #### Organizations
 
@@ -757,6 +757,20 @@ The following list is specific to this project, not an exhaustive overview.
 
 - Recogito: Collaborative Semantic Annotation
   https://recogito.pelagios.org/
+
+### Web Scraping
+
+- **ParseHub**: a free and powerful web scraping tool.
+  https://www.parsehub.com/
+
+- **Hyphe Browser**: desktop application which consists of a web browser to build a web corpus while visualizing the pages of the websites so that the user can curate and categorize them easily.
+  https://medialab.sciencespo.fr/en/tools/hyphe-browser/
+
+- **Issue Crawler**: network mapping software that crawls specified sites and captures the outlinks from the specified sites
+  http://www.govcom.org/Issuecrawler_instructions.htm
+
+- **minet**: a webmining command line tool & library for python (>= 3.7) that can be used to collect and extract data from a large variety of web sources such as raw webpages, Facebook, CrowdTangle, YouTube, Twitter, Media Cloud etc.
+  https://github.com/medialab/minet
 
 ## 4. Corpus Linguistics
 
