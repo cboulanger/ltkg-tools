@@ -33,6 +33,7 @@ The list differentiates between
 - [3\. Metadata retrieval and generation](#3-Metadata-retrieval-and-generation "3. Metadata retrieval and generation")
   - [Metadata providers (with Web API)](#Metadata-providers-with-Web-API "Metadata providers (with Web API)")
   - [Metadata extraction](#Metadata-extraction "Metadata extraction")
+  - [Web scraping](#Web-scraping)
 - [4\. Corpus Linguistics](#4-Corpus-Linguistics "4. Corpus Linguistics")
   - [General issues](#General-issues "General issues")
   - [Creation & Analysis of Text Corpora](#Creation-amp-Analysis-of-Text-Corpora "Creation & Analysis of Text Corpora")
