@@ -742,7 +742,10 @@ The following list is specific to this project, not an exhaustive overview.
   https://github.com/kermitt2/Pub2TEI
 
 
-#### PDF handling & manipulation
+#### PDF text extraction & manipulation
+
+- PyMuPDF: high-performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.
+  https://pymupdf.readthedocs.io
 
 - PDF editing libraries for Node
   https://www.npmjs.com/package/scissors
