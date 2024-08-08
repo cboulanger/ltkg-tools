@@ -3,7 +3,7 @@
 
 Christian Boulanger
 
-Last updated: 2024/03/12
+Last major update: 2024/03/12, see commit history for individual changes since then.
 
 The following links point to resources collected during the exploratory phase of the [Legal Theory Graph Project at the Max Planck Institute for Legal History and Legal Theory](https://www.lhlt.mpg.de/2514927/03-boulanger-legal-theory-graph). This is _not_ a comprehensive list of available resources or scholarship, but a selection based on the needs of the project and personal preferences. Most of the research for this list was done in 2021-2023, prior to the release of ChatGPT and other major language models that have revolutionized the NLP technology landscape. While some aspects of these newer developments have been incorporated, the list mostly reflects the pre-LLM state of the art.
 
@@ -699,6 +699,11 @@ The following list is specific to this project, not an exhaustive overview.
 
 - **Kraken**: turn-key OCR system
   http://kraken.re/
+
+#### OCR Workflows
+
+- Creating an OCR Workflow (Post-Processing)
+  https://github.com/ithaka/constellate-notebooks/blob/master/OCR/ocr-workflow-2.ipynb
 
 #### Document Layout Description
 
