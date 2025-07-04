@@ -685,6 +685,9 @@ The following list is specific to this project, not an exhaustive overview.
 - **OCRmyPDF**: adds an optical character recognition (OCR) text layer to scanned PDF files, allowing them to be searched.
   https://ocrmypdf.readthedocs.io/en/latest
 
+- **Kreuzberg OCR**: High-performance, lightweight Python library for text extraction from documents. Extract text from PDFs, images, office documents, and more with both async and sync APIs.
+  https://github.com/Goldziher/kreuzberg
+
 - **Abbyy Cloud OCR **: commercial OCR service, expensive but very good results for modern texts
   https://cloud.ocrsdk.com
   https://github.com/cboulanger/abbyy-cloud-ocr
